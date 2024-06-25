@@ -11,10 +11,6 @@ class Migration(migrations.Migration):
 
     initial = True
 
-    dependencies = [
-        ("pretixbase", "0058_auto_20170107_1533"),
-    ]
-
     operations = [
         migrations.CreateModel(
             name="Page",
